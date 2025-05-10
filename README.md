@@ -6,8 +6,7 @@
 
 ##  API testing
 
-Below are real Postman captures that demonstrate each endpoint and its typical HTTP response.  
-All screenshots live in the **`postman_screenshots`** folder so the markdown renders regardless of where you open this file.
+Below are the Postman captures made while testing the API.
 
 | Step | Operation | Screenshot |
 |------|-----------|------------|

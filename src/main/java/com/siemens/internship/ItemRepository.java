@@ -4,8 +4,13 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
-
-public interface ItemRepository extends JpaRepository<Item, Long> {
-    @Query("SELECT id FROM Item")
-    List<Long> findAllIds();
+import java.util.UUID;
+public interface ItemRepository extends JpaRepository<Item, UUID> {
+    /**
+     * Changed the query structure so that it no longer fails at runtime, it
+     * needs the alias 'item'
+     * @return now it returns a list of al items UUIDs
+     */
+    @Query("SELECT item.id FROM Item item")
+    List<UUID> findAllIds();
 }

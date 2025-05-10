@@ -1,5 +1,25 @@
+
+
 ## Hi there 👋
 
+---
+
+##  API testing
+
+Below are real Postman captures that demonstrate each endpoint and its typical HTTP response.  
+All screenshots live in the **`postman_screenshots`** folder so the markdown renders regardless of where you open this file.
+
+| Step | Operation | Screenshot |
+|------|-----------|------------|
+| 1 | List all items | ![get_all_items](postman_screenshots/get_all_items.png) |
+| 2 | Create an item (POST) | ![post_item](postman_screenshots/post_item.png) |
+| 3 | Retrieve that item (GET by ID) | ![get_specific_item](postman_screenshots/get_specific_item.png) |
+| 4 | Update an item (PUT) | ![put_modify_existing_item](postman_screenshots/put_modify_existing_item.png) |
+| 5 | Attempt to update a non-existent item | ![put_unexisting_item](postman_screenshots/put_unexisting_item.png) |
+| 6 | Trigger async processing of **all** items | ![process_all_items](postman_screenshots/process_all_items.png) |
+| 7 | Verify statuses after processing | ![get_on_all_items_item_modified](postman_screenshots/get_on_all_items_item_modified.png) |
+| 8 | Delete an item | ![delete_specified_item](postman_screenshots/delete_specified_item.png) |
+| 9 | Check list after deletion | ![get_items_after_deletion](postman_screenshots/get_items_after_deletion.png) |
 
 ## Siemens Java Internship - Code Refactoring Project
 

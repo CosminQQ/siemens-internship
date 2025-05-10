@@ -1,7 +1,7 @@
 
-
-## Hi there 👋
-
+//full name: Drăgoi Ioan-Cosmin
+## Hi there,
+## I'm Cosmin and here is how I solve the internship problem 👋
 ---
 
 ##  API testing
